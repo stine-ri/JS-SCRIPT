@@ -1,0 +1,99 @@
+body{
+    background-color: antiquewhite;
+    font-size: 30px;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.cover{
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.head{
+    background-image: url(images/bg-desktop-light.jpg);
+    background-size: cover;
+  
+}
+.head h1{
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
+#checkbox{
+    border-radius: 50%;
+}
+ .text-box{
+    padding: 15px;
+    background-color:antiquewhite;
+    width: 40%;
+    border-radius:4px;
+}
+
+
+.container{
+    padding: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 60%;
+}
+.container svg{
+  position: absolute;
+  right: 8px;
+  top: 50px;
+  transform: translate(-50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+@media (max-width:375px){
+    body{
+        font-size: 24px;
+    }
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+    .footer{
+        width: 100%;
+        flex-direction: column;
+        padding: 10px;
+
+    }
+    .form{
+        width: 100%;
+        padding: 10px;
+    }
+    .head{
+        width: 100%;
+        padding: 10px;
+    }
+    .text-box{
+        width: 100%;
+        padding: 10px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h5{
+        font-size: 24px;
+    }
+}
+
+p{
+    text-align: center;
+}
+
+.tail{
+    border-radius: 30%;
+}
+
+
+
+
